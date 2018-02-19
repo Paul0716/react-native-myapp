@@ -1,0 +1,28 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "15.0",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": [ "forbidExtraProps" ]
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+        "semi": 2,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+          
+    }
+}
